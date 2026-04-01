@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 12px 20px;
+    background: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #3367D6;
+}
+
+.hidden {
+    display: none;
+}
+
+#qrSection img {
+    width: 180px;
+    margin-top: 15px;
+    cursor: pointer;
+}
